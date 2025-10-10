@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la /basics /workspaces /boot
+ls -la /. /workspaces /boot
