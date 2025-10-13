@@ -1,0 +1,2 @@
+#!/bin/bash
+00sudo chown -R vincent:staff .
