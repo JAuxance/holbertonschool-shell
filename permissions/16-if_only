@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ "$(stat -c %U hello)" = "guillaume" ]
+sudo chown --from=guillaume:guillaume vincent:vincent hello
