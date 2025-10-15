@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$PATH" | tr ':' '\n' | wc -l | export PATH=/bin:::::/hello
+echo "$PATH" | tr : $'''''' | grep / | wc -l
